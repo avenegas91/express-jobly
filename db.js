@@ -9,7 +9,7 @@ if (process.env.NODE_ENV === "production") {
   db = new Client({
     user: "postgres",
     host: "localhost",
-    database: "jobly",
+    database: "jobly-test",
     password: "postgres",
     port: 5432,
 
